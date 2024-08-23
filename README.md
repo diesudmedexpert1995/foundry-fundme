@@ -48,7 +48,7 @@ $ anvil
 ### Deploy
 
 ```shell
-$ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
+$ forge script script/DeployFundMe.s.sol:DeployFundMe --rpc-url <your_rpc_url> --private-key <your_private_key>
 ```
 
 ### Cast
@@ -64,3 +64,8 @@ $ forge --help
 $ anvil --help
 $ cast --help
 ```
+### Unverified contract version
+https://sepolia.etherscan.io/address/0x53c5b4662a7bfddc9b80516ced1f307e4069d92a
+
+### Verified contract version
+https://sepolia.etherscan.io/address/0xcb7ffdcecf2eba5dc76b22fa7ee96b80b6ac2116
